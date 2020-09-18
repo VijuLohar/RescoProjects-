@@ -1,0 +1,40 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>msdyn_timeentry</EntityName>
+  <CamelCase>msdyn_timeentry</CamelCase>
+  <WorkflowLoad>&lt;?xml version="1.0" ?&gt;&lt;Workflow e="true" isvalid="true" syntaxVersion="11" version="0"&gt;&lt;function e="false"&gt;&lt;var&gt;Form.msdyn_bookableresource.Validate&lt;/var&gt;&lt;func&gt;Assign&lt;/func&gt;&lt;arg&gt;Boolean:True&lt;/arg&gt;&lt;/function&gt;&lt;/Workflow&gt;</WorkflowLoad>
+  <SharedVariables>&lt;SharedVariables&gt;&lt;Variables&gt;&lt;/Variables&gt;&lt;/SharedVariables&gt;</SharedVariables>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <SharedVariableNames/>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand OnExecuteButton</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="msdyn_start"/>
+        <DetailItem SchemaName="msdyn_end"/>
+        <DetailItem SchemaName="msdyn_duration"/>
+        <DetailItem SchemaName="msdyn_type"/>
+        <DetailItem SchemaName="msdyn_entrystatus"/>
+        <DetailItem SchemaName="msdyn_bookableresource"/>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="msdyn_workorder"/>
+        <DetailItem SchemaName="msdyn_bookableresourcebooking"/>
+        <DetailItem SchemaName="msdyn_bookingstatus"/>
+        <DetailItem separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="msdyn_description"/>
+        <DetailItem SchemaName="msdyn_externaldescription"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="IFrameTab">
+      <Name>TimeEntry</Name>
+      <Url>file://TimeEntry/TimeEntry.html</Url>
+      <IsVisible>false</IsVisible>
+      <DelayLoad>false</DelayLoad>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>

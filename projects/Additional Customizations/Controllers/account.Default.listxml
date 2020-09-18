@@ -1,0 +1,52 @@
+﻿<EntityList>
+  <Attributes>
+    <EntityName>account</EntityName>
+    <VisualStudioProjectId>c0f71827-e4f6-464e-a71d-c36687d5738e</VisualStudioProjectId>
+    <ClassBinding/>
+  </Attributes>
+  <Name>Default</Name>
+  <Kind>List</Kind>
+  <AutoWideWidth>0</AutoWideWidth>
+  <OrderBy>name</OrderBy>
+  <SerializedBindings>
+    <string>accountid</string>
+    <string>name</string>
+    <string>address1_city</string>
+    <string>address1_line1</string>
+    <string>address1_postalcode</string>
+    <string>emailaddress1</string>
+    <string>telephone1</string>
+    <string>customertypecode</string>
+  </SerializedBindings>
+  <MaxColumns>0</MaxColumns>
+  <SerializedTemplates>
+    <RowTemplate>
+      <DesignWidth>320</DesignWidth>
+      <DesignHeight>48</DesignHeight>
+      <Name>Default</Name>
+      <Width>320</Width>
+      <Height>64</Height>
+      <SerializedChildren>
+        <CellTemplate SchemaName="name">
+          <StyleName>primary</StyleName>
+          <Bounds>17,12,303,29</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>13</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="address1_line1">
+          <StyleName>gray</StyleName>
+          <Bounds>166,42,150,13</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>13</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="address1_city">
+          <StyleName>black_auto</StyleName>
+          <Bounds>17,43,147,20</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+      </SerializedChildren>
+    </RowTemplate>
+  </SerializedTemplates>
+  <CustomProperties/>
+</EntityList>

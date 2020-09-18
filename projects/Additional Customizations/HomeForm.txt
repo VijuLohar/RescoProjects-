@@ -1,0 +1,1 @@
+﻿@Dashboard;;Performance Dashboard,account,contact,bookableresourcebooking;;<extra><views>bookableresourcebooking.*:bookableresourcebooking.@Bookings</views><actions>3;;1</actions></extra>,msdyn_workorder;;msdyn_workorder.Default,product,bookableresourcecharacteristic,msdyn_bookingtimestamp,@Map;;Map,@Setup,@About,@@Feedback;
